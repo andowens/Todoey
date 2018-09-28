@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ListItem {
+class ListItem: Codable {
     var done = false
     var itemText = ""
     
